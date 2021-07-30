@@ -1,0 +1,41 @@
+.personWrapper{
+    background-color: rgb(136, 136, 136);
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.5rem;
+    max-width: 50%;
+    width: 40rem;
+    max-height: 20rem;
+}
+
+.personWrapper img{
+    width: 14rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    max-width: 50%;
+}
+
+.personWrapper h2{
+    font-size: 1.6rem;
+    color: rgb(37, 76, 88);
+}
+
+.personWrapper li{
+    font-size: 1.4rem;
+    padding-left: 0;
+    background-color: rgb(136, 136, 136);
+    border: none;
+}
+
+@media (max-width: 800px) {
+    .personWrapper h2{
+        font-size: 1.2rem;
+    }
+    .personWrapper li{
+        font-size: 1rem;
+    }
+    .personWrapper img{
+        width: 5rem;
+        height: 8rem;
+    }
+}

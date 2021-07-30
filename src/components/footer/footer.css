@@ -1,0 +1,30 @@
+.footerWrapper{
+    background-color: rgb(0, 0, 0);
+    padding: 0.5rem;
+}
+
+.footerWrapper{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.footerWrapper li{
+    font-size: 1.8rem;
+}
+
+.footerWrapper li a{
+    color: lightblue !important;
+}
+
+.footerWrapper li a:hover{
+    color: rgb(151, 151, 151) !important;
+}
+
+@media (max-width:900px) {
+    .footerWrapper h1{
+        font-size: 1.7rem;
+    }
+    .footerWrapper li{
+        font-size: 1rem;
+    }
+}

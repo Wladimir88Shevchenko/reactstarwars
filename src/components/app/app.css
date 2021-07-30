@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+.bodyContent{
+    min-height: calc(100vh - 91px - 75px);
+    padding-bottom: 1.5rem;
+}
+
+.mainWrapper{
+    width: 1280px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.mainWrapper .listAndDetailsWrapper{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 25px;
+}

@@ -1,0 +1,34 @@
+.rndPlanetWrapper>div{
+    margin-top: 1.5rem;
+    background-color: rgb(136, 136, 136);
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.5rem;
+}
+
+.rndPlanetWrapper img{
+    width: 20rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    max-width: 40%;
+}
+
+.rndPlanetWrapper h2{
+    font-size: 2.8rem;
+}
+
+.rndPlanetWrapper li{
+    font-size: 1.6rem;
+    padding-left: 0;
+    background-color: rgb(136, 136, 136);
+    border: none;
+}
+
+@media (max-width: 600px) {
+    .rndPlanetWrapper h2{
+        font-size: 1.5rem;        
+    }
+    .rndPlanetWrapper li{
+        font-size: 1rem; 
+    }
+}
